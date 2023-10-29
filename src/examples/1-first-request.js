@@ -12,7 +12,7 @@ const FirstRequest = () => {
             const { data } = response; // same as data = response.data
             console.log(data)
         } catch (error) {
-            console.log(error.response.data) 
+            console.log(error.response) 
         }
     };
 
